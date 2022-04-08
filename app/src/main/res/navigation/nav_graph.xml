@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introHeroe">
+
+    <fragment
+        android:id="@+id/introHeroe"
+        android:name="cl.desafiolatam.asuper.ui.IntroHeroe"
+        android:label="fragment_intro_heroe"
+        tools:layout="@layout/fragment_intro_heroe" >
+        <action
+            android:id="@+id/action_introHeroe_to_listaHeroe"
+            app:destination="@id/listaHeroe" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaHeroe"
+        android:name="cl.desafiolatam.asuper.ui.ListaHeroe"
+        android:label="fragment_lista_heroe"
+        tools:layout="@layout/fragment_lista_heroe" >
+        <action
+            android:id="@+id/action_listaHeroe_to_detalleHeroe"
+            app:destination="@id/detalleHeroe" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleHeroe"
+        android:name="cl.desafiolatam.asuper.ui.DetalleHeroe"
+        android:label="fragment_detalle_heroe"
+        tools:layout="@layout/fragment_detalle_heroe" >
+        <action
+            android:id="@+id/action_detalleHeroe_to_listaHeroe"
+            app:destination="@id/listaHeroe" />
+    </fragment>
+</navigation>

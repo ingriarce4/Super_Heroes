@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Super</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro">Encuentra a tu Súper Héroe</string>
+    <string name="empieza">Empieza</string>
+    <string name="slug">Slug</string>
+    <string name="nombreDetalle">Nombre</string>
+    <string name="Poderes">Poderes</string>
+    <string name="Inteligencia">Inteligencia</string>
+    <string name="publicado_por">Publicado por</string>
+    <string name="biograf_a">Biografía</string>
+
+
+</resources>
